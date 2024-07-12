@@ -11,7 +11,7 @@ const AuthLayout = () => {
             headerShown: false,
           }}
         />
-        {/* <Stack.Screen
+        <Stack.Screen
           name="into-two"
           options={{
             headerShown: false,
@@ -22,7 +22,7 @@ const AuthLayout = () => {
           options={{
             headerShown: false,
           }}
-        /> */}
+        />
       </Stack>
       <StatusBar backgroundColor="#161622" style="light" />
     </>
