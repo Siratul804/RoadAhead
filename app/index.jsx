@@ -1,35 +1,32 @@
 import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import road from "../assets/rod.png";
+import road from "../assets/roadD.jpg";
 import CustomButton from "./components/CustomButton";
 import { StatusBar } from "expo-status-bar";
 import { router } from "expo-router";
+
+// Basic Colors -> #5E17EB (purple) , #white ;
+
 export default function HomeScreen() {
   return (
     <SafeAreaView className="bg-black h-full">
       <ScrollView
         contentContainerStyle={{
-          height: "100%",
+          height: "90%",
         }}
       >
         <View className="flex-1 justify-center items-center">
-          <View className="w-full flex justify-center items-center px-4">
+          <View className="w-full flex justify-center items-center px-10">
             <Image
               source={road}
-              className="w-[30vh] h-[30vh]"
+              className="w-[50vh] h-[50vh]"
               resizeMode="contain"
             />
 
-            <View className="pr-8 pl-8 ">
-              <Text className="text-[14px] text-gray-100 mt-5 text-center">
-                Where Creativity Meets Innovation: Embark on a Journey of
-                Limitless Exploration with Flora
-              </Text>
-            </View>
             <CustomButton
               title="Let's Start"
-              handlePress={() => router.push("/home")}
-              containerStyles="w-full mt-7"
+              handlePress={() => router.push("/into-one")}
+              containerStyles="w-full mt-0"
             />
           </View>
         </View>
