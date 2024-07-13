@@ -32,7 +32,7 @@ export default function AuthPage() {
           {/* //btn// */}
           <View className="pt-10">
             <TouchableOpacity
-              onPress=""
+              onPress={() => router.push("/sign-up")}
               activeOpacity={0.7}
               className={`bg-white rounded-full min-h-[62px] justify-center items-center w-[44vh] `}
             >
@@ -43,12 +43,12 @@ export default function AuthPage() {
           </View>
           <View className="pt-5">
             <TouchableOpacity
-              onPress=""
+              onPress={() => router.push("/sign-in")}
               activeOpacity={0.7}
               className={`bg-black rounded-full min-h-[62px] justify-center items-center w-[44vh] border border-[white] `}
             >
               <Text className={`text-[#5E17EB] font-bold text-lg`}>
-                Create Account
+                Sign In
               </Text>
             </TouchableOpacity>
           </View>
