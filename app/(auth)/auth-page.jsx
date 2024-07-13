@@ -15,7 +15,15 @@ export default function AuthPage() {
           height: "100%",
         }}
       >
-        <View className="flex-1 justify-center items-center">
+        <View className="flex-1 justify-center ">
+          <TouchableOpacity
+            onPress={() => router.push("/home")}
+            activeOpacity={0.7}
+          >
+            <Text className=" text-right pr-10 text-[18px] font-bold text-[#5E17EB] ">
+              Skip
+            </Text>
+          </TouchableOpacity>
           <View className="w-full flex justify-center items-center pb-5 ">
             <Image
               source={logSin}
@@ -30,7 +38,7 @@ export default function AuthPage() {
             </View>
           </View>
           {/* //btn// */}
-          <View className="pt-10">
+          <View className="pt-10 items-center ">
             <TouchableOpacity
               onPress={() => router.push("/sign-up")}
               activeOpacity={0.7}
@@ -41,7 +49,7 @@ export default function AuthPage() {
               </Text>
             </TouchableOpacity>
           </View>
-          <View className="pt-5">
+          <View className="pt-5 items-center ">
             <TouchableOpacity
               onPress={() => router.push("/sign-in")}
               activeOpacity={0.7}

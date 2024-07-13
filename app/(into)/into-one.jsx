@@ -16,7 +16,16 @@ export default function IntoOne() {
           height: "100%",
         }}
       >
-        <View className="flex-1 justify-center items-center">
+        <View className="flex-1 justify-center">
+          <TouchableOpacity
+            onPress={() => router.push("/home")}
+            activeOpacity={0.7}
+          >
+            <Text className=" text-right pr-10 text-[18px] font-bold text-[#5E17EB] ">
+              Skip
+            </Text>
+          </TouchableOpacity>
+
           <View className="w-full flex justify-center items-center px-10">
             <Image
               source={in1}
