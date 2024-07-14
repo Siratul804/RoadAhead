@@ -13,12 +13,12 @@ const TabLayout = () => {
         tabBarStyle: {
           backgroundColor: "black",
           borderTopWidth: 1,
-          borderTopColor: "black",
+          borderTopColor: "#7B7B8B",
           height: 84,
         },
       }}
     >
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="home"
         options={{
           tabBarShowLabel: false,
@@ -33,7 +33,7 @@ const TabLayout = () => {
             </>
           ),
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="map"
         options={{
@@ -42,10 +42,10 @@ const TabLayout = () => {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <>
-              <FontAwesome5 name="map-marker-alt" size={24} color={color} />
-              <Text className="font-bold" style={{ color: color }}>
+              <FontAwesome5 name="map-marker-alt" size={28} color={color} />
+              {/* <Text className="font-bold" style={{ color: color }}>
                 Map
-              </Text>
+              </Text> */}
             </>
           ),
         }}
@@ -58,10 +58,10 @@ const TabLayout = () => {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <>
-              <MaterialIcons name="bus-alert" size={24} color={color} />
-              <Text className="font-bold" style={{ color: color }}>
+              <MaterialIcons name="bus-alert" size={28} color={color} />
+              {/* <Text className="font-bold" style={{ color: color }}>
                 Alerts
-              </Text>
+              </Text> */}
             </>
           ),
         }}
@@ -75,10 +75,10 @@ const TabLayout = () => {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <>
-              <MaterialIcons name="person" size={28} color={color} />
-              <Text className="font-bold" style={{ color: color }}>
+              <MaterialIcons name="person" size={32} color={color} />
+              {/* <Text className="font-bold" style={{ color: color }}>
                 Profile
-              </Text>
+              </Text> */}
             </>
           ),
         }}

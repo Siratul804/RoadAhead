@@ -18,7 +18,7 @@ export default function IntoTwo() {
       >
         <View className="flex-1 justify-center">
           <TouchableOpacity
-            onPress={() => router.push("/home")}
+            onPress={() => router.push("/map")}
             activeOpacity={0.7}
           >
             <Text className=" text-right pr-10 text-[18px] font-bold text-[#5E17EB] ">
