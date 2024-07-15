@@ -7,6 +7,7 @@ import CustomButton from "../components/CustomButton";
 import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
+import { router } from "expo-router";
 
 const Profile = () => {
   return (
