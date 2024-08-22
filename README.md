@@ -21,6 +21,13 @@ It's the best solution for your next traffic update.
   
 </div>
 
+## Technologies
+- React Native Expo
+- Tailwind CSS 
+- Expo Icons
+- Google Map API
+  
+
 ## Installation
 ### Prerequisites
 - Node.js
@@ -60,9 +67,20 @@ It's the best solution for your next traffic update.
 - babel.config.js
 - package.json
  ```
+---
 
-<div align="center">
+<p align="center">
+<b>Made with ❤️ by   <a href="https://github.com/Siratul804">  Siratul Islam </a> </b> 
+</p>
 
-<b> Thank You !  </b>
-  
-</div>
+<p align="center">
+  <a href="https://github.com/Siratul804?tab=repositories">View Project</a> •
+  <a href="https://github.com/Siratul804">GitHub Profile</a> •
+  <a href="https://www.linkedin.com/in/siratulislam/">LinkedIn</a> •
+  <a href="https://x.com/Siratul074">Twitter</a>
+</p>
+
+<p align="center">
+  <small>© 2024 Siratul Islam. All rights reserved.</small>
+</p>
+
